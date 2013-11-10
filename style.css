@@ -1,73 +1,68 @@
-body{
-	background-color: #C4C4C4;
-	color: #787878;
-	width: 1024px;
-	margin-top: 40px;
-	font-size: 24px;
-	margin-left: 40px;
-	display: table;
-	margin: auto;
-	font-family: "proxima-nova", helvetica, sans-serif;
-
+body {
+  background-color: #c4c4c4;
+  color: #787878;
+  width: 1024px;
+  margin-top: 3em;
+  font-size: 1.5em;
+  margin-left: 3em;
+  display: table;
+  margin: auto;
+  font-family: "proxima-nova", helvetica, sans-serif;
 }
-a{
-	color: #787878;
+a {
+  color: #787878;
 }
-img{
-	float: right;
-	border: #857B66 5px solid;
-	border-radius: 10px;
+img {
+  float: right;
+  border: #857b66 0.25em solid;
+  border-radius: 0.5em;
 }
-.text{
-	margin-top: 40px;
+.text {
+  margin-top: 3em;
 }
-nav{
-	margin-top: 20px;
+nav {
+  margin-top: 1.5em;
 }
-nav li{
-	display: inline;
-
+nav li {
+  display: inline;
 }
-nav li a{
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	border: 1px solid #787878;
-	border-radius: 10px;
-	text-decoration: none;
-	text-
-
+nav li a {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border: 1px solid #787878;
+  border-radius: 0.5em;
+  text-decoration: none;
 }
-nav li a:hover{
-	background-color: #787878;
-	color: #C4C4C4;
-
+nav li a:hover {
+  background-color: #787878;
+  color: #c4c4c4;
 }
-nav li .search{
-	border: 1px solid #787878;
-	border-radius: 5px;
-	margin-left: 0px;
+nav li .search {
+  border: 1px solid #787878;
+  border-radius: 0.5em;
+  margin-left: 0px;
 }
-nav li .search:hover{
-	background-color: #787878;
-	color: #C4C4C4;
+nav li .search:hover {
+  background-color: #787878;
+  color: #c4c4c4;
 }
-.important{
-	color: #857B66;
+.important {
+  color: #857b66;
 }
-.content{
-	width: 400px;
+.content {
+  width: 512px;
 }
-.content li{
-	list-style: none;
-	display: inline;
+.content li {
+  list-style: none;
+  display: inline;
 }
-li.search{
-	float: right;
+li.search {
+  float: right;
 }
-footer{
-	clear: both;
-	text-align: center;
-	font-size: 12px;
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 0.5em;
 }
