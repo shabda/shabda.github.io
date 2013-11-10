@@ -13,6 +13,7 @@ a{
 img{
 	float: right;
 	border: #857B66 5px solid;
+	border-radius: 10px;
 }
 .text{
 	margin-top: 40px;
