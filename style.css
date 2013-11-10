@@ -2,46 +2,54 @@ body {
   background-color: #393939;
   color: #c2c2c2;
   width: 1024px;
-  margin-top: 3em;
-  font-size: 1.5em;
-  margin-left: 3em;
+  margin-top: 2.4em;
+  font-size: 1.2em;
+  margin-left: 2.4em;
   display: table;
   margin: auto;
   font-family: "proxima-nova", helvetica, sans-serif;
+  line-height: 1.32em;
 }
 a {
   color: #c2c2c2;
 }
 img {
   float: right;
-  border: #898989 0.25em solid;
-  border-radius: 0.5em;
+  border: #898989 0.19999999999999998em solid;
+  border-radius: 0.39999999999999997em;
+  box-shadow: 0px 2px 0px 0px #898989;
 }
 .text {
-  margin-top: 3em;
+  margin-top: 2.4em;
 }
 nav {
-  margin-top: 1.5em;
+  margin-top: 1.2em;
+}
+nav ul {
+  display: table;
+  margin: auto;
 }
 nav li {
   display: inline;
+  margin-left: 0.3em;
 }
 nav li a {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  border: 1px solid #c2c2c2;
-  border-radius: 0.5em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  padding-bottom: 0.39999999999999997em;
+  padding-top: 0.39999999999999997em;
+  border: 0.09999999999999999em solid #c2c2c2;
+  border-radius: 0.39999999999999997em;
   text-decoration: none;
+  box-shadow: 0px 2px 0px 0px #898989;
 }
 nav li a:hover {
   background-color: #c2c2c2;
   color: #393939;
 }
 nav li .search {
-  border: 1px solid #c2c2c2;
-  border-radius: 0.5em;
+  border: 0.09999999999999999em solid #c2c2c2;
+  border-radius: 0.39999999999999997em;
   margin-left: 0px;
 }
 nav li .search:hover {
@@ -64,5 +72,9 @@ li.search {
 footer {
   clear: both;
   text-align: center;
-  font-size: 0.5em;
+  font-size: 0.6em;
+  padding: 0.19999999999999998em;
+}
+abbr {
+  border-bottom: 0.08em dashed;
 }

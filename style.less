@@ -3,7 +3,8 @@
 @accent: #898989;
 
 @width: 1024px;
-@font-size: 1.5em;
+@font-size: 1.2em;
+@thin: (@font-size/12);
 
 
 body{
@@ -16,6 +17,7 @@ body{
 	display: table;
 	margin: auto;
 	font-family: "proxima-nova", helvetica, sans-serif;
+	line-height: (1.1*@font-size);
 
 }
 a{
@@ -25,6 +27,7 @@ img{
 	float: right;
 	border: @accent (@font-size/6) solid;
 	border-radius: (@font-size/3);
+	box-shadow: 0px 2px 0px 0px @accent;
 }
 .text{
 	margin-top: (2*@font-size);
@@ -32,8 +35,13 @@ img{
 nav{
 	margin-top: @font-size;
 }
+nav ul{
+	display: table;
+	margin: auto;
+}
 nav li{
 	display: inline;
+	margin-left:@font-size/4;
 
 }
 nav li a{
@@ -41,9 +49,10 @@ nav li a{
 	padding-right: @font-size;
 	padding-bottom: @font-size/3;
 	padding-top: @font-size/3;
-	border: 1px solid @primary-color;
+	border: @thin solid @primary-color;
 	border-radius: @font-size/3;
 	text-decoration: none;
+	box-shadow: 0px 2px 0px 0px @accent;
 }
 nav li a:hover{
 	background-color: @primary-color;
@@ -51,7 +60,7 @@ nav li a:hover{
 
 }
 nav li .search{
-	border: 1px solid @primary-color;
+	border: @thin solid @primary-color;
 	border-radius: @font-size/3;
 	margin-left: 0px;
 }
@@ -75,6 +84,9 @@ li.search{
 footer{
 	clear: both;
 	text-align: center;
-	font-size: (@font-size/3);
-	padding: (font-size/6);
+	font-size: (@font-size/2);
+	padding: (@font-size/6);
+}
+abbr{
+	border-bottom: (@font-size/15) dashed;
 }
