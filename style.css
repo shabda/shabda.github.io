@@ -5,6 +5,9 @@ body{
 	margin-top: 40px;
 	font-size: 24px;
 	margin-left: 40px;
+	display: table;
+	margin: auto;
+	font-family: "proxima-nova", helvetica, sans-serif;
 
 }
 a{
@@ -18,11 +21,14 @@ img{
 .text{
 	margin-top: 40px;
 }
-.nav li{
+nav{
+	margin-top: 20px;
+}
+nav li{
 	display: inline;
 
 }
-.nav li a{
+nav li a{
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 10px;
@@ -32,40 +38,35 @@ img{
 	text-decoration: none;
 
 }
-.nav li a:hover{
+nav li a:hover{
 	background-color: #787878;
 	color: #C4C4C4;
 
 }
-.nav li .search{
+nav li .search{
 	border: 1px solid #787878;
 	border-radius: 2px;
 	margin-left: 0px;
 }
-.nav li .search:hover{
+nav li .search:hover{
 	background-color: #787878;
 	color: #C4C4C4;
 }
 .important{
 	color: #857B66;
 }
-.family{
-
-}
-.aboutme{
-	border-bottom: 5px #787878 solid;
-	width: 400px;
-}
 .content{
 	width: 400px;
 }
 .content li{
 	list-style: none;
+	display: inline;
 }
 li.search{
 	float: right;
 }
-.footer{
+footer{
 	clear: both;
 	text-align: center;
+	font-size: 12px;
 }
