@@ -1,63 +1,70 @@
 body{
-				background-color: #C4C4C4;
-				color: #787878;
-				width: 1024px;
-				margin-top: 40px;
-				font-size: 24px;
-				margin-left: 40px;
+	background-color: #C4C4C4;
+	color: #787878;
+	width: 1024px;
+	margin-top: 40px;
+	font-size: 24px;
+	margin-left: 40px;
 
-			}
-			a{
-				color: #787878;
-			}
-			img{
-				float: right;
-				border: #857B66 5px solid;
-			}
-			.text{
-				margin-top: 40px;
-			}
-			.nav li{
-				display: inline;
+}
+a{
+	color: #787878;
+}
+img{
+	float: right;
+	border: #857B66 5px solid;
+}
+.text{
+	margin-top: 40px;
+}
+.nav li{
+	display: inline;
 
-			}
-			.nav li a{
-				padding-left: 20px;
-				padding-right: 20px;
-				padding-bottom: 10px;
-				padding-top: 10px;
-				border: 1px solid #787878;
-				border-radius: 10px;
-				text-decoration: none;
+}
+.nav li a{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: 1px solid #787878;
+	border-radius: 10px;
+	text-decoration: none;
 
-			}
-			.nav li a:hover{
-				background-color: #787878;
-				color: #C4C4C4;
+}
+.nav li a:hover{
+	background-color: #787878;
+	color: #C4C4C4;
 
-			}
-			.nav li .search{
-				border: 1px solid #787878;
-				border-radius: 2px;
-				margin-left: 0px;
-			}
-			.nav li .search:hover{
-				background-color: #787878;
-				color: #C4C4C4;
-			}
-			.important{
-				color: #857B66;
-			}
-			.family{
+}
+.nav li .search{
+	border: 1px solid #787878;
+	border-radius: 2px;
+	margin-left: 0px;
+}
+.nav li .search:hover{
+	background-color: #787878;
+	color: #C4C4C4;
+}
+.important{
+	color: #857B66;
+}
+.family{
 
-			}
-			.aboutme{
-				border-bottom: 5px #787878 solid;
-				width: 400px;
-			}
-			.content{
-				width: 400px;
-			}
-			li.search{
-				float: right;
-			}
+}
+.aboutme{
+	border-bottom: 5px #787878 solid;
+	width: 400px;
+}
+.content{
+	width: 400px;
+}
+.content li{
+	list-style: none;
+}
+li.search{
+	float: right;
+}
+.footer{
+	clear: both;
+	text-align: center;
+}
