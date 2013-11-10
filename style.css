@@ -1,6 +1,6 @@
 body {
-  background-color: #c4c4c4;
-  color: #787878;
+  background-color: #393939;
+  color: #c2c2c2;
   width: 1024px;
   margin-top: 3em;
   font-size: 1.5em;
@@ -10,11 +10,11 @@ body {
   font-family: "proxima-nova", helvetica, sans-serif;
 }
 a {
-  color: #787878;
+  color: #c2c2c2;
 }
 img {
   float: right;
-  border: #857b66 0.25em solid;
+  border: #898989 0.25em solid;
   border-radius: 0.5em;
 }
 .text {
@@ -31,28 +31,28 @@ nav li a {
   padding-right: 1.5em;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
-  border: 1px solid #787878;
+  border: 1px solid #c2c2c2;
   border-radius: 0.5em;
   text-decoration: none;
 }
 nav li a:hover {
-  background-color: #787878;
-  color: #c4c4c4;
+  background-color: #c2c2c2;
+  color: #393939;
 }
 nav li .search {
-  border: 1px solid #787878;
+  border: 1px solid #c2c2c2;
   border-radius: 0.5em;
   margin-left: 0px;
 }
 nav li .search:hover {
-  background-color: #787878;
-  color: #c4c4c4;
+  background-color: #c2c2c2;
+  color: #393939;
 }
 .important {
-  color: #857b66;
+  color: #898989;
 }
 .content {
-  width: 512px;
+  width: 441.3333333333333px;
 }
 .content li {
   list-style: none;
