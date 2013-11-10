@@ -36,6 +36,7 @@ nav li a{
 	border: 1px solid #787878;
 	border-radius: 10px;
 	text-decoration: none;
+	text-
 
 }
 nav li a:hover{
@@ -45,7 +46,7 @@ nav li a:hover{
 }
 nav li .search{
 	border: 1px solid #787878;
-	border-radius: 2px;
+	border-radius: 5px;
 	margin-left: 0px;
 }
 nav li .search:hover{
