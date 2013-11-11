@@ -13,6 +13,10 @@ body {
 a {
   color: #c2c2c2;
 }
+h2 {
+  height: 1.2em;
+  line-height: 1.2em;
+}
 img {
   border: #898989 0.19999999999999998em solid;
   border-radius: 0.39999999999999997em;
