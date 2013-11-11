@@ -24,10 +24,26 @@ a{
 	color: @primary-color;
 }
 img{
-	float: right;
 	border: @accent (@font-size/6) solid;
 	border-radius: (@font-size/3);
 	box-shadow: 0px 2px 0px 0px @accent;
+}
+blockquote{
+	font-style: italic;
+	padding-top: (@font-size)
+}
+blockquote:before {
+	display: inline-block;
+	position: relative;
+	content: "\201C";
+	font-size: (@font-size*2);
+	left: 0px;
+	top: 0px;
+}
+
+.meta{
+	float: right;
+	width: (@width/2);
 }
 .text{
 	margin-top: (2*@font-size);
