@@ -1,0 +1,14 @@
+---
+layout: default
+quote: Happyness is only real when shared.
+image: family.png
+---
+
+<section>
+  {% for post in site.posts %}
+    <div>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </div>
+  {% endfor %}
+</section>
