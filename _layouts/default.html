@@ -1,19 +1,38 @@
-<!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
+    {% include head.html %}
     <body>
+        {% include nav.html %}
+        <div class="text">
+            <div class="meta">
+                <img src="{{ page.image }}" />
+                <blockquote>{{ page.quote }}</blockquote>
+                <div>
+                    <p class="aboutme">
+                        You can find out more about me at
+                    </p>
+                    {% include links.html %}
 
-    {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
+                </div>
+            </div>
 
-    {% include footer.html %}
+            <div class="content">
+                <p>Namaste, I am <strong class="important">Shabda Raaj</strong>.</p>
+                <p>I write and sell software for <a href="http://github.com/shabda">fun</a> and <a href="http://agiliq.com/">profit</a>.</p>
+
+                {{ content }}
+
+
+            </div>
+
+
+        </div>
+        <footer>
+            <p>&copy; 2013, 2014, Shabda Raaj</p>
+        </footer>
+
+
+
 
     </body>
 </html>
