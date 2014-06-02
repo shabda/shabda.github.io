@@ -7,4 +7,4 @@ url: "http://shabdaraaj.com"
 
 # Build settings
 markdown: kramdown
-permalink: /posts/:categories/:title.html
+permalink: /writings/:categories/:title.html
