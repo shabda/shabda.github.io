@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The entities involved in equity markets in India"
-image: "/media/asoiaf.png"
+image: "/media/making-money-pratchett.jpg"
 quote: "Whole new theories of money were growing here like mushrooms: in the dark and based on bullshit."
 categories: personal-finance
 ---
